@@ -1,17 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 import { Route, Router, Routes } from 'react-router-dom'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  // const router = createBrowserRouter([
+  //   {
+  //     path: "/",
+  //     element: <Root />,
+  //     errorElement: <ErrorPage />,
+  //   },
+  //   {
+  //     path: "contacts/:contactId",
+  //     element: <Contact />,
+  //   },
+  // ]);
 
   return (
     <Router>
     <div className="App">
-      <Routes>
-      <Route path=''  ></Route>
-     
+      <Routes >
+        <Route  path= "/" element= "</MainComponent>"></Route>
+    
       </Routes>
     
     </div>
