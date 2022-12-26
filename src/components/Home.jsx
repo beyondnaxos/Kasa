@@ -4,8 +4,6 @@ function Home() {
 
   return (
 
-    // Hero Banner 
-    //  List 
     <div>Home</div>
   )
 }
