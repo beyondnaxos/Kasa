@@ -1,19 +1,19 @@
+import { useState } from 'react'
 import './App.css'
 import { Route, Router, Routes } from 'react-router-dom'
 
 function App() {
 
-  // const router = createBrowserRouter([
-  //   {
-  //     path: "/",
-  //     element: <Root />,
-  //     errorElement: <ErrorPage />,
-  //   },
-  //   {
-  //     path: "contacts/:contactId",
-  //     element: <Contact />,
-  //   },
-  // ]);
+//  create a state for datas
+//  create a function to fetch datas
+const [datas, setDatas] = useState([])
+const fetchDatas = async () => {
+  const response = await fetch('adresse des datas')
+  const data = await response.json()
+  setDatas(data)
+}
+
+fetchDatas()
 
   
   return (
