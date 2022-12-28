@@ -4,8 +4,7 @@ import { Route, Router, Routes } from 'react-router-dom'
 
 function App() {
 
-//  create a state for datas
-//  create a function to fetch datas
+
 const [datas, setDatas] = useState([])
 const fetchDatas = async () => {
   const response = await fetch('adresse des datas')
