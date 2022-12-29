@@ -7,7 +7,6 @@ import {v4 as uuidv4} from 'uuid'
 export default function DetailInfo(props) {
 
   const datas = props.datas
-
   const rating = datas.rating
 
   const starFill = <img src="/assets/starFill.png" alt="" />
@@ -21,8 +20,6 @@ export default function DetailInfo(props) {
   for (let i = 0; i < 5 - rating; i++) {
     stars.push(starEmpty)
   }
-
-  console.log(stars)
 
   return (
     <section className="main-infos">
