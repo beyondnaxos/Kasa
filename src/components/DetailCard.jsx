@@ -1,17 +1,19 @@
 import React from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 
 function DetailCard(props) {
+
   const data = props.data
 
   return (
     <>
-      <a className='detail-card-link' href="">
+      <Link to={'/detail/' + data.id } >
         <article className="detail-card">
-          <img className="detail-card-img" src={data.pictures[0]} alt="" />
+          <img className="detail-card-img" src={data.cover} alt="" />
           <div className="shadow-layer"></div>
           <p className='detail-card-title'>{data.title}</p>
         </article>
-      </a>
+      </Link>
     </>
   )
 }

@@ -1,12 +1,13 @@
 import React from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 
 export default function NavBar() {
   return (
     <nav className='navbar'>
-        <img src='../src/assets/LOGO.svg' className='logo'></img>
+        <img src='/assets/LOGO.svg' className='logo'></img>
         <ul className='nav-links'>
-            <li className='nav-link'><a href='#'>Accueil</a></li>
-            <li className='nav-link'><a href="about">A propos</a></li>
+            <li className='nav-link'><Link to='/'>Accueil</Link></li>
+            <li className='nav-link'><Link to='/about'>A propos</Link></li>
         </ul>
     </nav>
   )
