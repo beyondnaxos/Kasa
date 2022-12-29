@@ -157,10 +157,10 @@ body {
   margin-top: 20px;
   width: 1240px;
   height: 442px;
-  /* background-color: red; */
   border-radius: 30px;
   display: flex;
   overflow: hidden;
+  user-select: none;
 }
 
 .slider-img {
@@ -178,6 +178,20 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 0 30px;
+ 
+}
+.slider-arrow-left, .slider-arrow-right {
+  cursor: pointer;
+  width: 50%;
+  display: flex;
+}
+
+.slider-arrow-left {
+  justify-content: flex-start;
+}
+
+.slider-arrow-right {
+  justify-content: flex-end;
 }
 
 .counter {
@@ -222,6 +236,8 @@ body {
   margin-bottom: 20px;
 }
 
+/* TAGS */
+
 .tags {
   display: flex;
   height: 25px;
@@ -241,6 +257,7 @@ body {
   line-height: 20px;
 }
 
+/* PROFIL INFOS */
 
 .name-pp-rating {
   /* background-color: rgb(173, 42, 42); */
@@ -295,8 +312,26 @@ object-fit: cover;
 
 }
 
+.dropButton {
+  border: none;
+  background-color: transparent;
+}
+
+.arrow {
+  width: 16px;
+  height: 26px;
+  cursor: pointer;
+}
+
+.up {
+  transform: rotate(-90deg);
+}
+
+.down {
+  transform: rotate(90deg);
+}
 .dropdown-menu-title {
-  font-size: 24px;
+  font-size: 18px;
   height: 52px;
   font-weight: 500;
   color: #ffffff;
@@ -319,10 +354,6 @@ object-fit: cover;
   color: #FF6060;
   line-height: 26px;
 }
-
-
-
-
 
 /* FOOTER */
 
