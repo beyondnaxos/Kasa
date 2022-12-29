@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import * as data from '../data/data.json'
 import DetailCard from './DetailCard'
 

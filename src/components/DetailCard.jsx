@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function DetailCard(props) {
 
@@ -7,7 +7,7 @@ function DetailCard(props) {
 
   return (
     <>
-      <Link to={'/detail/' + data.id } >
+      <Link to={'/detail/' + data.id } data={data} >
         <article className="detail-card">
           <img className="detail-card-img" src={data.cover} alt="" />
           <div className="shadow-layer"></div>
