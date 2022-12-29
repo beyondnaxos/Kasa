@@ -5,7 +5,7 @@ export default function Hero() {
     <header className='hero'>
         <img className='hero-img' src="/assets/background.png" alt="" />
         <div className="background-layer"></div>
-        <h1 className="hero-title">Chez vous, partout et ailleurs</h1>
+        <div className="hero-title"><span>Chez vous,</span><span>partout et ailleurs</span></div>
     </header>
   )
 }
