@@ -7,7 +7,7 @@ export default function DropdownMenu(props) {
   const datas = props.datas
 
   return (
-    <div className="dropdown-menu">
+    <div className="dropdown-menu ">
       <div className="dropdown-menu-title">
         {title}
         <button className="dropButton" onClick={() => setOpen(!open)}>

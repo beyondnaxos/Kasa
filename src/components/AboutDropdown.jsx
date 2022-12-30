@@ -6,10 +6,10 @@ export default function AboutDropdown  (props) {
   const title = props.datas.title
   const description = props.datas.description
 
-  console.log(aboutList)
+
 
   return (
-    <div className="dropdown-menu ">
+    <div className="dropdown-menu about-drop-menu ">
       <div className="dropdown-menu-title ">
         {title}
         <button className="dropButton" onClick={() => setOpen(!open)}>

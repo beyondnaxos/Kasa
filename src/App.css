@@ -359,6 +359,22 @@ object-fit: cover;
 }
 
 /* FOOTER */
+.about-container {
+  width: 1240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.about-header {
+  margin-bottom: 31px;
+}
+
+.about-drop-menu {
+  width: 1023px;
+  margin-bottom: 31px;
+}
 
 .footer {
   margin-top: auto;
@@ -566,6 +582,20 @@ object-fit: cover;
     margin-top: 2px;
     width: 9px;
     height: 15px;
+  }
+
+  .about-container {
+    width: 335px;
+  }
+  .about-header {
+   width: 335px;
+   height: 225px;
+   padding: 0 !important;
+  } 
+
+  .about-image {
+    height: 100%;
+    object-position: bottom;
   }
   .footer-desc {
     width: 100%;
