@@ -501,6 +501,16 @@ object-fit: cover;
     font-size: 14px;
   }
 
+  .tags {
+    flex-wrap: wrap;
+    height: inherit;
+  }
+
+  .tag-container  {
+    font-size: 10px;
+    min-width: inherit;
+    
+  }
   .tag-container p {
     font-size: 10px;
     
