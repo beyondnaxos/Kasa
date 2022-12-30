@@ -6,6 +6,7 @@ import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import Detail from './components/Detail'
 import About from './components/About'
+import Error from './components/Error'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/detail/:id" element={<Detail />} />
         <Route path="/about" element={<About />} />
+        <Route path="*" element={<Error/> } />
       </Routes>
       <Footer />
     </BrowserRouter>
