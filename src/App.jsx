@@ -8,7 +8,6 @@ import Detail from './components/Detail'
 import About from './components/About'
 
 function App() {
-  
   return (
     <BrowserRouter>
       <NavBar />
@@ -17,7 +16,7 @@ function App() {
         <Route path="/detail/:id" element={<Detail />} />
         <Route path="/about" element={<About />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </BrowserRouter>
   )
 }

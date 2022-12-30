@@ -1,14 +1,16 @@
 import React, { useState } from 'react'
 
-export default function DropdownMenu(props) {
+export default function AboutDropdown  (props) {
   const [open, setOpen] = useState(false)
 
-  const title = props.title
-  const datas = props.datas
+  const title = props.datas.title
+  const description = props.datas.description
+
+  console.log(aboutList)
 
   return (
-    <div className="dropdown-menu">
-      <div className="dropdown-menu-title">
+    <div className="dropdown-menu ">
+      <div className="dropdown-menu-title ">
         {title}
         <button className="dropButton" onClick={() => setOpen(!open)}>
           {open ? (
@@ -20,13 +22,10 @@ export default function DropdownMenu(props) {
       </div>
       {open ? null : (
         <div className="dropdown-menu-content">
-          {Array.isArray(datas) ? (
-            datas.map((data) => <p key={data}>{data}</p>)
-          ) : (
-            <p>{datas}</p>
-          )}
+          <p>{description}</p>
         </div>
       )}
     </div>
   )
 }
+
