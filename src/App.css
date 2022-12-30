@@ -459,6 +459,104 @@ object-fit: cover;
     margin-bottom: 30px;
   }
 
+  .slider-container {
+    width: 335px;
+    height: 255px;
+    border-radius: 10px;
+  }
+
+  .slider-img {
+    border-radius: 10px;
+  }
+
+  .slider-arrows {
+    padding: 0 10px;
+  }
+
+  .slider-arrow-left img , .slider-arrow-right img {
+    width: 12px;
+    height: 20px;
+  }
+
+  .counter {
+    display: none;
+  }
+
+  .main-infos {
+    width: 335px;
+    height: inherit;
+    flex-direction: column;
+  }
+
+  .title-location-tags {
+    width: 100%;
+  }
+  .main-infos-title {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+
+  .main-infos-location {
+    font-size: 14px;
+  }
+
+  .tag-container p {
+    font-size: 10px;
+    
+  }
+
+  .name-pp-rating {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 16px;
+  }
+
+  .host-name {
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .host-pp {
+    height: 32px;
+    width: 32px;
+  }
+
+  .star img {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .dropdown-container {
+    width:335px;
+    flex-direction: column;
+  }
+
+  .dropdown-menu {
+    width: 335px;
+    margin-bottom: 30px;
+  }
+
+  .dropdown-menu-title {
+    height: 30px;
+    font-size: 13px;
+    padding: 0 11px;
+  }
+
+  .dropdown-menu-content  {
+    padding: 14px;
+  }
+  .dropdown-menu-content p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .arrow {
+    margin-top: 2px;
+    width: 9px;
+    height: 15px;
+  }
   .footer-desc {
     width: 100%;
     font-size: 12px;
