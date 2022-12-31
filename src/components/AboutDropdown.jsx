@@ -10,17 +10,17 @@ export default function AboutDropdown  (props) {
 
   return (
     <div className="dropdown-menu about-drop-menu ">
-      <div className="dropdown-menu-title ">
+      <div className="dropdown-menu-title " onClick={() => setOpen(!open)}>
         {title}
-        <button className="dropButton" onClick={() => setOpen(!open)}>
-          {open ? (
+        <button className="dropButton" >
+          {!open ? (
             <img className="arrow up" src="/assets/arrowLeft.png" />
           ) : (
             <img className="arrow down" src="/assets/arrowLeft.png" />
           )}
         </button>
       </div>
-      {open ? null : (
+      {!open ? null : (
         <div className="dropdown-menu-content">
           <p>{description}</p>
         </div>
