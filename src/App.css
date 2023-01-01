@@ -181,8 +181,9 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 30px;
- 
+
 }
+
 .slider-arrow-left, .slider-arrow-right {
   cursor: pointer;
   width: 50%;
@@ -200,12 +201,12 @@ body {
 .counter {
   position: absolute;
   width: 100%;
-    bottom: 20px;
-    display: flex;
-    justify-content: center;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
   font-size: 18px;
   font-weight: 500;
-  color: #FFFFFF;	
+  color: #FFFFFF;
 }
 
 .main-infos {
@@ -267,14 +268,14 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  row-gap:  24px;
+  row-gap: 24px;
 }
 
 .name-pp {
   display: flex;
   align-items: center;
   justify-content: space-between;
- column-gap: 10px;
+  column-gap: 10px;
 }
 
 .host-name {
@@ -288,10 +289,10 @@ body {
 }
 
 .host-pp {
-height: 64px;
-width: 64px;
-border-radius: 50%;
-object-fit: cover;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .rating {
@@ -333,6 +334,7 @@ object-fit: cover;
 .down {
   transform: rotate(90deg);
 }
+
 .dropdown-menu-title {
   font-size: 18px;
   height: 52px;
@@ -353,7 +355,7 @@ object-fit: cover;
   border-radius: 10px;
 }
 
-.dropdown-menu-content p{
+.dropdown-menu-content p {
   font-size: 18px;
   color: #FF6060;
   line-height: 26px;
@@ -404,17 +406,17 @@ object-fit: cover;
   /* width: 100%;
   height: 600px;
    */
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   color: #FF6060;
-   position: absolute;
-   top: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FF6060;
+  position: absolute;
+  top: 20%;
 }
 
-.big-number{
- font-size: 263px;
+.big-number {
+  font-size: 263px;
 }
 
 .big-quote {
@@ -426,7 +428,7 @@ object-fit: cover;
   font-size: 25px;
   color: #FF6060;
   font-weight: 500;
- 
+
 }
 
 *::-webkit-scrollbar {
@@ -519,7 +521,7 @@ object-fit: cover;
     padding: 0 10px;
   }
 
-  .slider-arrow-left img , .slider-arrow-right img {
+  .slider-arrow-left img, .slider-arrow-right img {
     width: 12px;
     height: 20px;
   }
@@ -537,6 +539,7 @@ object-fit: cover;
   .title-location-tags {
     width: 100%;
   }
+
   .main-infos-title {
     font-size: 18px;
     line-height: 24px;
@@ -552,14 +555,15 @@ object-fit: cover;
     height: inherit;
   }
 
-  .tag-container  {
+  .tag-container {
     font-size: 10px;
     min-width: inherit;
-    
+
   }
+
   .tag-container p {
     font-size: 10px;
-    
+
   }
 
   .name-pp-rating {
@@ -584,9 +588,9 @@ object-fit: cover;
     width: 15px;
     height: 15px;
   }
-  
+
   .dropdown-container {
-    width:335px;
+    width: 335px;
     flex-direction: column;
   }
 
@@ -601,13 +605,15 @@ object-fit: cover;
     padding: 0 11px;
   }
 
-  .dropdown-menu-content  {
+  .dropdown-menu-content {
     padding: 14px;
   }
+
   .dropdown-menu-content p {
     font-size: 13px;
     line-height: 20px;
   }
+
   .arrow {
     margin-top: 2px;
     width: 9px;
@@ -617,52 +623,54 @@ object-fit: cover;
   .about-container {
     width: 335px;
   }
+
   .about-header {
-   width: 335px;
-   height: 225px;
-   padding: 0 !important;
-  } 
+    width: 335px;
+    height: 225px;
+    padding: 0 !important;
+  }
 
   .about-image {
     height: 100%;
     object-position: bottom;
   }
+
   .footer-desc {
     width: 100%;
     font-size: 12px;
     color: white;
     text-align: center;
   }
-  
+
   .error-page {
     /* width: 100%;
     height: 600px;
      */
-     
-     align-items: center;
-     color: #FF6060;
-     position: absolute;
-     top: 150px;
-     
+
+    align-items: center;
+    color: #FF6060;
+    position: absolute;
+    top: 150px;
+
   }
-  
-  .big-number{
-   font-size: 53px;
-   margin-bottom: 10px;
+
+  .big-number {
+    font-size: 53px;
+    margin-bottom: 10px;
   }
-  
+
   .big-quote {
     font-size: 18px;
     width: 260px;
     margin-bottom: 100px;
     text-align: center;
   }
-  
+
   .redirect {
     font-size: 12px;
     color: #FF6060;
     font-weight: 500;
-   
+
   }
 
 
