@@ -7,7 +7,7 @@ import * as data from '../data/data.json'
 import {v4 as uuidv4} from 'uuid'
 
 export default function Detail() {
-  window.scrollTo(0, 0)
+  // window.scrollTo(0, 0)
   const { id } = useParams()
   const datas = data.default.find((data) => data.id === id)
 

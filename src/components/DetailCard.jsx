@@ -7,7 +7,7 @@ function DetailCard(props) {
 
   return (
     <>
-      <Link to={'/detail/' + data.id } data={data} >
+      <Link to={'/detail/' + data.id }>
         <article className="detail-card">
           <img className="detail-card-img" src={data.cover} alt="" />
           <div className="shadow-layer"></div>
