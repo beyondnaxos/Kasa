@@ -7,10 +7,12 @@ import Footer from './components/Footer'
 import Detail from './components/Detail'
 import About from './components/About'
 import Error from './components/Error'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />

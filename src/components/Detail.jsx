@@ -19,10 +19,6 @@ export default function Detail() {
       <DropdownMenu key={uuidv4()} title='Description' datas={datas.description}/>
       <DropdownMenu key={uuidv4()} title='Équipement' datas={datas.equipments}/>
       </div>
-
-     
-
-
     </>
   )
 }
