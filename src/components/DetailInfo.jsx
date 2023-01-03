@@ -1,11 +1,8 @@
 import React from 'react'
 import Tags from './Tags'
-import {v4 as uuidv4} from 'uuid'
-
-
+import { v4 as uuidv4 } from 'uuid'
 
 export default function DetailInfo(props) {
-
   const datas = props.datas
   const rating = datas.rating
 

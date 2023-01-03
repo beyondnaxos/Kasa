@@ -4,7 +4,7 @@ import DropdownMenu from './DropdownMenu'
 import DetailInfos from './DetailInfo'
 import { useParams } from 'react-router-dom'
 import * as data from '../data/data.json'
-import {v4 as uuidv4} from 'uuid'
+import { v4 as uuidv4 } from 'uuid'
 
 export default function Detail() {
   // window.scrollTo(0, 0)
@@ -14,10 +14,18 @@ export default function Detail() {
   return (
     <>
       <Slider datas={datas} />
-      <DetailInfos datas={datas}/>
+      <DetailInfos datas={datas} />
       <div className="dropdown-container">
-      <DropdownMenu key={uuidv4()} title='Description' datas={datas.description}/>
-      <DropdownMenu key={uuidv4()} title='Équipement' datas={datas.equipments}/>
+        <DropdownMenu
+          key={uuidv4()}
+          title="Description"
+          datas={datas.description}
+        />
+        <DropdownMenu
+          key={uuidv4()}
+          title="Équipement"
+          datas={datas.equipments}
+        />
       </div>
     </>
   )

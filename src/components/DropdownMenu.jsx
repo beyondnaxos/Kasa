@@ -10,7 +10,7 @@ export default function DropdownMenu(props) {
     <div className="dropdown-menu ">
       <div className="dropdown-menu-title" onClick={() => setOpen(!open)}>
         {title}
-        <button className="dropButton" >
+        <button className="dropButton">
           {!open ? (
             <img className="arrow up" src="/assets/arrowLeft.png" />
           ) : (
