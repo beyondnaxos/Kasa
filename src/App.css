@@ -5,21 +5,14 @@
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
-
-  -webkit-touch-callout: none;
-  /* iOS Safari */
-  -webkit-user-select: none;
-  /* Safari */
-  -khtml-user-select: none;
-  /* Konqueror HTML */
-  -moz-user-select: none;
-  /* Old versions of Firefox */
-  -ms-user-select: none;
-  /* Internet Explorer/Edge */
-  user-select: none;
-  /* Non-prefixed version, currently
+  
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
                                     supported by Chrome, Edge, Opera and Firefox */
-
 }
 
 body {
@@ -426,8 +419,11 @@ body {
   justify-content: center;
   align-items: center;
   color: #FF6060;
-  position: absolute;
-  top: 20%;
+  /* position: absolute;
+  top: 20%; */
+  margin-top: 174px;
+margin-bottom: 150px;
+
 }
 
 .big-number {
@@ -436,7 +432,7 @@ body {
 
 .big-quote {
   font-size: 51px;
-  margin-bottom: 250px;
+  margin-bottom: 200px;
 }
 
 .redirect {
@@ -665,8 +661,7 @@ body {
     align-items: center;
     color: #FF6060;
     position: absolute;
-    top: 150px;
-
+    top: 0;
   }
 
   .big-number {
