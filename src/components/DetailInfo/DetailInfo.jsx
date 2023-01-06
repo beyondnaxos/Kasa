@@ -1,5 +1,5 @@
 import React from 'react'
-import Tags from './Tags'
+import Tags from '../Tags/Tags'
 import { v4 as uuidv4 } from 'uuid'
 
 export default function DetailInfo(props) {

@@ -1,13 +1,13 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import Home from './components/Home'
-import NavBar from './components/NavBar'
-import Footer from './components/Footer'
-import Detail from './components/Detail'
-import About from './components/About'
-import Error from './components/Error'
-import ScrollToTop from './components/ScrollToTop'
+import Home from './components/Home/home'
+import NavBar from './components/NavBar/NavBar'
+import Footer from './components/Footer/Footer'
+import Detail from './components/Detail/Detail'
+import About from './components/About/About'
+import Error from './components/Error/Error'
+import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 
 function App() {
   return (

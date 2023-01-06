@@ -1,6 +1,6 @@
 import React from 'react'
-import * as data from '../data/data.json'
-import DetailCard from './DetailCard'
+import * as data from '../../data/data.json'
+import DetailCard from '../DetailCard/DetailCard'
 
 const Details = () => (
   <div className="details">

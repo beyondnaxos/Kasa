@@ -1,10 +1,10 @@
 import React from 'react'
-import Slider from './Slider'
-import Error from './Error'
-import DropdownMenu from './DropdownMenu'
-import DetailInfos from './DetailInfo'
+import Slider from '../Slider/Slider'
+import Error from '../Error/Error'
+import DropdownMenu from '../DropdownMenu/DropdownMenu'
+import DetailInfos from '../DetailInfo/DetailInfo'
 import { Link, useParams } from 'react-router-dom'
-import * as data from '../data/data.json'
+import * as data from '../../data/data.json'
 import { v4 as uuidv4 } from 'uuid'
 
 export default function Detail() {

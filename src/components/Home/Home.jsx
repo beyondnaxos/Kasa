@@ -1,6 +1,6 @@
 import React from 'react'
-import Hero from './Hero'
-import Details from './Details'
+import Hero from '../Hero/Hero'
+import Details from '../Details/Details'
 
 function Home() {
   return (

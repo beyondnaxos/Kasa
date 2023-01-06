@@ -1,7 +1,7 @@
 import React from 'react'
 import { v4 as uuidv4 } from 'uuid'
-import AboutDropdown from './AboutDropdown'
-import * as aboutList from '../data/about.json'
+import AboutDropdown from '../AboutDropdown/AboutDropdown'
+import * as aboutList from '../../data/about.json'
 
 export default function About() {
   return (
