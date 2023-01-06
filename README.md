@@ -1,7 +1,7 @@
 
 # KASA
 
-## Ton objectif 
+## Objectif 
 
 Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !) et toutes les infos que je te donne ci-dessous. Et ce avec un code de qualité ! 
 
