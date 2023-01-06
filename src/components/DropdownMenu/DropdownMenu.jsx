@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import styles from './DropdownMenu.module.css'
 
 export default function DropdownMenu(props) {
   const [open, setOpen] = useState(false)
@@ -7,19 +8,19 @@ export default function DropdownMenu(props) {
   const datas = props.datas
 
   return (
-    <div className="dropdown-menu ">
-      <div className="dropdown-menu-title" onClick={() => setOpen(!open)}>
+    <div className={styles.dropdownmenu}>
+      <div className={styles.dropdownmenutitle} onClick={() => setOpen(!open)}>
         {title}
-        <button className="dropButton">
+        <button className={styles.dropButton}>
           {!open ? (
-            <img className="arrow up" src="/assets/arrowLeft.png" />
+            <img className={`${styles.arrow} ${styles.up}`} src="/assets/arrowLeft.png" />
           ) : (
-            <img className="arrow down" src="/assets/arrowLeft.png" />
+            <img className={`${styles.arrow} ${styles.down}`} src="/assets/arrowLeft.png" />
           )}
         </button>
       </div>
       {!open ? null : (
-        <div className="dropdown-menu-content">
+        <div className={styles.dropdownmenucontent}>
           {Array.isArray(datas) ? (
             datas.map((data) => <p key={data}>{data}</p>)
           ) : (

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import styles from './AboutDropdown.module.css'
 
 export default function AboutDropdown(props) {
   const [open, setOpen] = useState(false)
@@ -7,19 +8,19 @@ export default function AboutDropdown(props) {
   const description = props.datas.description
 
   return (
-    <div className="dropdown-menu about-drop-menu ">
-      <div className="dropdown-menu-title " onClick={() => setOpen(!open)}>
+    <div className={`${styles.dropdownmenu	} ${styles.aboutdropmenu}`}>
+      <div className={styles.dropdownmenutitle} onClick={() => setOpen(!open)}>
         {title}
-        <button className="dropButton">
+        <button className={styles.dropButton}>
           {!open ? (
-            <img className="arrow up" src="/assets/arrowLeft.png" />
+            <img className={`${styles.arrow} ${styles.up}`} src="/assets/arrowLeft.png" />
           ) : (
-            <img className="arrow down" src="/assets/arrowLeft.png" />
+            <img className={`${styles.arrow} ${styles.down}`} src="/assets/arrowLeft.png" />
           )}
         </button>
       </div>
       {!open ? null : (
-        <div className="dropdown-menu-content">
+        <div className={styles.dropdownmenucontent}>
           <p>{description}</p>
         </div>
       )}

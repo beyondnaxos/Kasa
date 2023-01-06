@@ -6,6 +6,7 @@ import DetailInfos from '../DetailInfo/DetailInfo'
 import { Link, useParams } from 'react-router-dom'
 import * as data from '../../data/data.json'
 import { v4 as uuidv4 } from 'uuid'
+import styles from './Detail.module.css'
 
 export default function Detail() {
   // window.scrollTo(0, 0)
@@ -19,7 +20,7 @@ export default function Detail() {
       <>
         <Slider datas={datas} />
         <DetailInfos datas={datas} />
-        <div className="dropdown-container">
+        <div className={styles.dropdowncontainer}>
           <DropdownMenu
             key={uuidv4()}
             title="Description"
