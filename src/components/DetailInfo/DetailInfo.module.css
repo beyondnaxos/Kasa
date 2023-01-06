@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 15px;
     margin-bottom: 26px;
 }
 
@@ -19,6 +19,7 @@
     font-size: 36px;
     color: #FF6060;
     line-height: 51px;
+    font-weight: 500;
 }
 
 .maininfoslocation {
@@ -88,6 +89,7 @@
         font-size: 18px;
         line-height: 24px;
         margin-bottom: 10px;
+
     }
 
     .maininfoslocation {
