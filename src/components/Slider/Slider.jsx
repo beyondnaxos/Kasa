@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import styles from './Slider.module.css'
 
 export const Slider = (props) => {
   const [index, setIndex] = useState(0)
@@ -16,20 +17,20 @@ export const Slider = (props) => {
   }
 
   return (
-    <section className="slider-container">
-      <img className="slider-img" src={images[index]} alt="" />
+    <section className={styles.slidercontainer}>
+      <img className={styles.sliderimg} src={images[index]} alt="" />
 
       {images.length <= 1 ? null : (
         <>
-          <div className="slider-arrows">
-            <div className="slider-arrow-left" onClick={handleLeftArrow}>
+          <div className={styles.sliderarrows}>
+            <div className={styles.sliderarrowleft} onClick={handleLeftArrow}>
               <img src="/assets/arrowLeft.png" alt="" />
             </div>
-            <div className="slider-arrow-right" onClick={handleRightArrow}>
+            <div className={styles.sliderarrowright} onClick={handleRightArrow}>
               <img src="/assets/arrowRight.png" alt="" />
             </div>
           </div>
-          <span className="counter">
+          <span className={styles.counter}>
             {index + 1}/{images.length}
           </span>
         </>
