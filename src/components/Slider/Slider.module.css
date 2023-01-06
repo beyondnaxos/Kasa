@@ -55,7 +55,7 @@
 }
 
 
-@media screen and (max-width : 375px) {
+@media screen and (max-width : 480px) {
     .slidercontainer {
         width: 335px;
         height: 255px;

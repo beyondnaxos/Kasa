@@ -1,6 +1,7 @@
 import React from 'react'
 import Tags from '../Tags/Tags'
 import { v4 as uuidv4 } from 'uuid'
+import styles from './DetailInfo.module.css'
 
 export default function DetailInfo(props) {
   const datas = props.datas
@@ -19,11 +20,11 @@ export default function DetailInfo(props) {
   }
 
   return (
-    <section className="main-infos">
-      <div className="title-location-tags">
-        <h2 className="main-infos-title">{datas.title}</h2>
-        <p className="main-infos-location">{datas.location}</p>
-        <div className="tags-container">
+    <section className={styles.maininfos}>
+      <div className={styles.titlelocationtags}>
+        <h2 className={styles.maininfostitle}>{datas.title}</h2>
+        <p className={styles.maininfoslocation}>{datas.location}</p>
+        <div className={styles.tagscontainer}>
           <Tags tagsList={datas.tags} />
           {datas.tags.map((tag) => {
             console.log(tag)
@@ -31,15 +32,15 @@ export default function DetailInfo(props) {
         </div>
       </div>
 
-      <div className="name-pp-rating">
-        <div className="name-pp">
-          <p className="host-name">{datas.host.name}</p>
-          <img className="host-pp" src={datas.host.picture} alt="" />
+      <div className={styles.namepprating}>
+        <div className={styles.namepp}>
+          <p className={styles.hostname}>{datas.host.name}</p>
+          <img className={styles.hostpp} src={datas.host.picture} alt="" />
         </div>
 
-        <div className="rating">
+        <div className={styles.rating}>
           {stars.map((star) => (
-            <div className="star" key={uuidv4()}>
+            <div className={styles.star} key={uuidv4()}>
               {star}
             </div>
           ))}

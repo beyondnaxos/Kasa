@@ -1,0 +1,120 @@
+.maininfos {
+    width: 1240px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 26px;
+}
+
+.titlelocationtags {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.maininfostitle {
+    font-size: 36px;
+    color: #FF6060;
+    line-height: 51px;
+}
+
+.maininfoslocation {
+    font-size: 18px;
+    color: #FF6060;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+/* TAGS */
+
+
+/* PROFIL INFOS */
+
+.namepprating {
+    /* background-color: rgb(173, 42, 42); */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.namepp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.hostname {
+    word-spacing: 99999999px;
+    width: 100px;
+    text-align: end;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FF6060;
+
+}
+
+.hostpp {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.rating {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 5px;
+}
+
+@media screen and (max-width : 480px) {
+
+    .maininfos {
+        width: 335px;
+        height: inherit;
+        flex-direction: column;
+    }
+
+    .titlelocationtags {
+        width: 100%;
+    }
+
+    .maininfostitle {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    .maininfoslocation {
+        font-size: 14px;
+    }
+
+    .namepprating {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .hostname {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .hostpp {
+        height: 32px;
+        width: 32px;
+    }
+
+    .star img {
+        width: 15px;
+        height: 15px;
+    }
+
+}

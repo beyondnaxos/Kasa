@@ -1,0 +1,39 @@
+ .tags {
+   display: flex;
+   height: 25px;
+   gap: 10px;
+ }
+
+ .tagcontainer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #FF6060;
+   color: white;
+   font-size: 14px;
+   min-width: 115px;
+   padding: 0 20px;
+   border-radius: 10px;
+   line-height: 20px;
+ }
+
+ @media screen and (max-width : 480px) {
+
+   .tags {
+     flex-wrap: wrap;
+     height: inherit;
+   }
+
+   .tagcontainer {
+     font-size: 10px;
+     min-width: inherit;
+
+   }
+
+   .tagcontainer p {
+     font-size: 10px;
+
+   }
+
+
+ }
