@@ -1,0 +1,28 @@
+.details {
+    width: 1240px;
+    background-color: #F6F6F6;
+    margin-top: 43px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    row-gap: 50px;
+    column-gap: 60px;
+    padding: 56px 50px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width : 375px) {
+
+    .details {
+        width: 100%;
+        background-color: #ffffff;
+        margin-top: 22px;
+        row-gap: 20px;
+        column-gap: 60px;
+        padding: 0 20px 16px 20px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+
+}

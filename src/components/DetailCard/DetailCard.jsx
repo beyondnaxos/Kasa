@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import styles from './DetailCard.module.css'
 
 function DetailCard(props) {
   const data = props.data
@@ -7,10 +8,10 @@ function DetailCard(props) {
   return (
     <>
       <Link to={'/detail/' + data.id}>
-        <article className="detail-card">
-          <img className="detail-card-img" src={data.cover} alt="" />
-          <div className="shadow-layer"></div>
-          <p className="detail-card-title">{data.title}</p>
+        <article className={styles.detailcard}>
+          <img className={styles.detailcardimg} src={data.cover} alt="" />
+          <div className={styles.shadowlayer}></div>
+          <p className={styles.detailcardtitle}>{data.title}</p>
         </article>
       </Link>
     </>
