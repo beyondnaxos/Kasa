@@ -1,10 +1,11 @@
 import React from 'react'
+import styles from './Footer.module.css'
 
 function Footer() {
   return (
-    <footer className="footer">
-      <img className="footer-logo" src="/assets/WHITELOGO.svg" alt="" />
-      <p className="footer-desc">© 2020 Kasa. All rights reserved</p>
+    <footer className={styles.footer}>
+      <img className={styles.footerlogo} src="/assets/WHITELOGO.svg" alt="" />
+      <p className={styles.footerdesc}>© 2020 Kasa. All rights reserved</p>
     </footer>
   )
 }

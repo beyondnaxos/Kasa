@@ -1,0 +1,32 @@
+.footer {
+    margin-top: auto;
+    width: 100%;
+    height: 209px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footerlogo {
+    height: 35px;
+    width: auto;
+    margin-bottom: 50px;
+}
+
+.footerdesc {
+    font-size: 24px;
+    color: white;
+}
+
+@media screen and (max-width : 480px) {
+
+    .footerdesc {
+        width: 100%;
+        font-size: 12px;
+        color: white;
+        text-align: center;
+    }
+
+}
