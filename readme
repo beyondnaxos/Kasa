@@ -1,0 +1,13 @@
+P11 KASA 
+
+Pour installer le projet 
+
+npm install
+
+Pour lancer le projet 
+
+npm run dev
+
+Pour build le projet
+
+npm run build
