@@ -18,8 +18,8 @@ Démarrer le projet React et développer l’ensemble de l’application, les co
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Main Color / Main Font | ![#FF6060](https://via.placeholder.com/10/FF6060?text=+) #FF6060 |
-| BGC / Font | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
+| Main Color / Main Font |  #FF6060 |
+| BGC / Font |  #ffffff |
 
 
 ## Run Locally
