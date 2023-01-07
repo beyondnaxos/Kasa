@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter} from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 import Routing from './Routing'
 import NavBar from './components/NavBar/NavBar'
 import Footer from './components/Footer/Footer'
@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <ScrollToTop />
       <NavBar />
-      <Routing/>
+      <Routing />
       <Footer />
     </BrowserRouter>
   )
