@@ -8,14 +8,20 @@ export default function AboutDropdown(props) {
   const description = props.datas.description
 
   return (
-    <div className={`${styles.dropdownmenu	} ${styles.aboutdropmenu}`}>
+    <div className={`${styles.dropdownmenu} ${styles.aboutdropmenu}`}>
       <div className={styles.dropdownmenutitle} onClick={() => setOpen(!open)}>
         {title}
         <button className={styles.dropButton}>
           {!open ? (
-            <img className={`${styles.arrow} ${styles.up}`} src="/assets/arrowLeft.png" />
+            <img
+              className={`${styles.arrow} ${styles.up}`}
+              src="/assets/arrowLeft.png"
+            />
           ) : (
-            <img className={`${styles.arrow} ${styles.down}`} src="/assets/arrowLeft.png" />
+            <img
+              className={`${styles.arrow} ${styles.down}`}
+              src="/assets/arrowLeft.png"
+            />
           )}
         </button>
       </div>

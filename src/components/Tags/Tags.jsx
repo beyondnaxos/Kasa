@@ -1,9 +1,7 @@
 import React from 'react'
 import styles from './Tags.module.css'
 
-
 const Tags = (props) => {
-
   const tagsList = props.tagsList
 
   return (
@@ -14,7 +12,6 @@ const Tags = (props) => {
         </div>
       ))}
     </div>
-    
   )
 }
 
