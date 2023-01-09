@@ -18,8 +18,10 @@
         width: 100%;
         background-color: #ffffff;
         margin-top: 22px;
+        display: flex;
+        justify-content: center;
         row-gap: 20px;
-        column-gap: 60px;
+        column-gap: inherit;
         padding: 0 20px 16px 20px;
         border-radius: 10px;
         margin-bottom: 30px;

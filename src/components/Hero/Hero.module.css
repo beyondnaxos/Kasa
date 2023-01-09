@@ -1,4 +1,4 @@
-.hero {
+.herocontainer{
   margin-top: 68px;
   width: 1240px;
   height: 223px;
@@ -7,6 +7,14 @@
   justify-content: center;
   align-items: center;
   position: relative;
+}
+
+.hero {
+  width: 1240px;
+  height: 223px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .heroimg {
@@ -30,7 +38,6 @@
 
 .herotitle {
   position: absolute;
-
   text-align: center;
   font-size: 48px;
   font-weight: 500;
@@ -41,12 +48,22 @@
 
 @media screen and (max-width : 480px) {
 
-  .hero {
+  .herocontainer {
     margin-top: 16px;
-    width: 100%;
+    width: 100vw;
     padding: 0 20px;
     height: 111px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    position: inherit;
+  }
+
+  .hero {
+    width: 335px;
+    position: relative;
+    height: 111px;
+    
   }
 
   .heroimg {
@@ -59,8 +76,9 @@
   .backgroundlayer {
     height: 111px;
     width: 335px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     border-radius: 10px;
+    top: 0;
   }
 
   .herotitle {
