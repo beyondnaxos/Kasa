@@ -1,6 +1,5 @@
 import React from 'react'
 import { v4 as uuidv4 } from 'uuid'
-// import AboutDropdown from '../AboutDropdown/AboutDropdown'
 import * as aboutList from '../../data/about.json'
 import styles from './About.module.css'
 import DropdownMenu from '../DropdownMenu/DropdownMenu'
