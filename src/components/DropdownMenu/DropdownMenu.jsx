@@ -7,8 +7,10 @@ export default function DropdownMenu(props) {
   const title = props.title
   const datas = props.datas
 
+  
+
   return (
-    <div className={styles.dropdownmenu}>
+    <div className={`${styles.dropdownmenu} ${props.about ? styles.aboutdropmenu :  '' } `}>
       <div className={styles.dropdownmenutitle} onClick={() => setOpen(!open)}>
         {title}
         <button className={styles.dropButton}>

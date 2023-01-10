@@ -6,6 +6,11 @@
     margin-bottom: 50px;
 }
 
+.aboutdropmenu {
+    width: 1023px !important;
+    margin-bottom: 31px;
+  }
+
 .dropdownmenu {
     display: flex;
     flex-direction: column;
@@ -63,6 +68,10 @@
     .dropdownmenu {
         width: 335px;
         margin-bottom: 30px;
+    }
+
+    .aboutdropmenu {
+        width: inherit !important;
     }
 
     .dropdownmenutitle {

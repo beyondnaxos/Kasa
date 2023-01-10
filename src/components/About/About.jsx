@@ -1,8 +1,9 @@
 import React from 'react'
 import { v4 as uuidv4 } from 'uuid'
-import AboutDropdown from '../AboutDropdown/AboutDropdown'
+// import AboutDropdown from '../AboutDropdown/AboutDropdown'
 import * as aboutList from '../../data/about.json'
 import styles from './About.module.css'
+import DropdownMenu from '../DropdownMenu/DropdownMenu'
 
 export default function About() {
   return (
@@ -19,7 +20,7 @@ export default function About() {
         />
       </header>
       {aboutList.default.map((data) => (
-        <AboutDropdown datas={data} key={uuidv4()} />
+        <DropdownMenu about={true} title={data.title} datas={data.description} key={uuidv4()} />
       ))}
     </div>
   )
