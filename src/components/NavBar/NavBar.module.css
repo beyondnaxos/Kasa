@@ -19,6 +19,9 @@
     list-style: none;
 }
 
+.navlink:active { text-decoration: underline !important; }
+.navlink:hover { text-decoration: underline !important; }
+
 .navlink {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
